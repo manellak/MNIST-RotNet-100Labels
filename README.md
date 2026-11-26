@@ -30,7 +30,7 @@ Ouvrir ensuite `pipeline.ipynb` dans VS Code et sélectionner l'environnement Py
 - `splits/pool_seed42.npz` : indices du pool commun de 40 000 images, dans le jeu d'entraînement officiel MNIST.
 - `results/reference_supervisee_40000_labels/` : métriques et poids de la référence A.
 
-Le pool est un tirage proposé en l'absence d'un découpage fourni par l'enseignant. Les 10 000 images de test officielles sont réservées à l'évaluation. Un nouvel entraînement relance les 30 époques et doit utiliser un dossier de résultats qui n'existe pas encore : le programme refuse de remplacer un dossier existant.
+Le pool est un tirage proposé en l'absence d'un découpage fourni par l'enseignant. Les 10 000 images de test officielles sont réservées à l'évaluation. Le notebook charge par défaut les résultats existants. Pour relancer l'entraînement, modifier `RELANCER_ENTRAINEMENT` et choisir un nouveau `DOSSIER_RESULTATS` : le programme refuse de remplacer un dossier existant.
 
 ## Article de référence
 
