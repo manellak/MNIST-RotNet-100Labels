@@ -1,0 +1,7 @@
+# Versions vérifiées avec Python 3.13 pour ce projet.
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.3.5
+matplotlib==3.10.7
+ipykernel==7.1.0
+scikit-learn==1.7.2
