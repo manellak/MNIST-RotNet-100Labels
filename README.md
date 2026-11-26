@@ -28,7 +28,7 @@ Ouvrir ensuite `pipeline.ipynb` dans VS Code et sélectionner l'environnement Py
 - `src/train_supervised.py` : entraînement et sauvegarde de la référence A.
 - `src/transfer_learning.py` : fichier prévu pour le transfert.
 - `splits/pool_seed42.npz` : indices du pool commun de 40 000 images, dans le jeu d'entraînement officiel MNIST.
-- `results/reference_A/` : métriques et poids de la référence A.
+- `results/reference_supervisee_40000_labels/` : métriques et poids de la référence A.
 
 Le pool est un tirage proposé en l'absence d'un découpage fourni par l'enseignant. Les 10 000 images de test officielles sont réservées à l'évaluation. Un nouvel entraînement relance les 30 époques et doit utiliser un dossier de résultats qui n'existe pas encore : le programme refuse de remplacer un dossier existant.
 

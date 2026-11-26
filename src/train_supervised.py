@@ -13,7 +13,7 @@ from src.models import SmallCNN
 
 
 
-def train_reference(train_data, test_data, output_dir="results/reference_A",
+def train_reference(train_data, test_data, output_dir="results/reference_supervisee_40000_labels",
                     seed=42, epochs=30, batch_size=128, learning_rate=0.001,
                     device=None):
     """Entraîne un modèle neuf, l'évalue une fois et enregistre ses résultats."""
